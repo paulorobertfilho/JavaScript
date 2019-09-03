@@ -1,0 +1,80 @@
+*,::after,::before {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.barra-top {
+  position: fixed;
+  display: inline-block;
+  background-color: #000;
+  width: 100%;
+  height: 50px;
+}
+.menu-top {
+  list-style: none;
+}
+.menu-top li {
+  display: inline;
+  padding: 0px 5px 0px 5px;
+  color: #fff;
+}
+.menu-top li span {
+  font-weight: 800;
+  color: #23a3de;
+}
+.menu-top a {
+  color: #fff;
+  text-decoration: none;
+}
+.menu-top a:hover {
+  color: #23a3de;
+}
+.container {
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+.start {
+  margin: 0 auto;
+  widows: 90%;
+  text-align: center;
+}
+.foot-bottom {
+  position: fixed;
+  bottom:0;
+  height: 50px;
+  width: 100%;
+  background: #000;
+  color: #ccc;
+}
+.linha {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: -10px;
+  padding-right: -10px;
+}
+.col-50 {
+  flex: 0 0 49%;
+  padding: 5px;
+  display: inline-block;
+  width: 49.666%;
+  border: 1px solid red;
+}
+.control-form {
+  display: block;
+  width: 100%;
+  height: 20px;
+  font-size: 13px;
+  font-weight: 400px;
+  padding: 3px;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+}
+.hidden {
+  display: none;
+}
+button, input {
+  margin: 0;
+  line-height: inherit;
+}

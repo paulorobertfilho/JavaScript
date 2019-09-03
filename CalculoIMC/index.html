@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>IMC</title>
+</head>
+
+<body>
+  <form name="f_imc">
+    <label for="f_alt">Altura</label><br>
+    <input type="text" name="f_alt" id="f_alt" value=""><br><br>
+    <label for="f_pes"></label><br>
+    <input type="text" name="f_pes" id="f_pes" value=""><br><br>
+    <input type="button" value="Calc" onclick="imc()"><br><br>
+  </form>
+
+  <table border="1" cellspacing="0">
+    <tr>
+      <th width="200">Condição</th>
+      <th width="100">Mulherer</th>
+      <th width="100">Homens</th>
+    </tr>
+    <tr>
+      <td>Abaixo do Peso</td>
+      <td> 19,1</td>
+      <td> 20,7</td>
+    </tr>
+    <tr>
+      <td>Normal</td>
+      <td>19,1 ~ 25,8</td>
+      <td>20,7 ~ 26,4</td>
+    </tr>
+    <tr>
+      <td>Pouco Acima</td>
+      <td>25,9 ~ 27,3</td>
+      <td>26,5 ~ 27,8</td>
+    </tr>
+    <tr>
+      <td>Acima</td>
+      <td>27,4~32,3</td>
+      <td>27,9~31,1</td>
+    </tr>
+    <tr>
+      <td>Obes</td>
+      <td>32,3</td>
+      <td>31,1</td>
+    </tr>
+  </table>
+</body>
+<script type="text/javascript" src="./script.js"></script>
+
+</html>

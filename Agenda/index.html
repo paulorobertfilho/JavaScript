@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="./style/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Agenda</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="barra-top">
+      <ul class='menu-top'>
+        <li><span>Agenda</span></li>
+        <li><a href="#home" onclick="removeElem('.frm-agenda','hidden')">Home</a></li>
+        <li><a href="#cadFrm" onclick="showElem('.frm-agenda','hidden')">Cadastro</a></li>
+      </ul>
+    </div>
+  </header>
+  <div class="container">
+    <div class="start">
+
+    </div>
+
+    <div class="frm-agenda hidden">
+      <div class="linha">
+        <h2>Cadastro de Users</h2>
+      </div>
+      <form class="">
+        <div class="linha">
+          <div class="col-50">
+            <label for="nome">Nome </label>
+            <input type="text" class="control-form" name="" id="nome" value="">
+          </div>
+          <div class="col-50">
+            <label for="tel">Telefone </label>
+            <input type="text" class="control-form" name="" id="tel" value="" onkeypress="maskNumber('#fone')">
+          </div>
+        </div>
+        <div class="linha">
+          <div class="col-50">
+            <label for="cel">Celular </label>
+            <input type="text" class="control-form" name="" id="cel" value="">
+          </div>
+          <div class="col-50">
+            <label for="email">E-Mail </label>
+            <input type="text" class="control-form" name="" id="email" value="">
+          </div>
+        </div>
+        <div class="linha">
+          <button type="button" name="button">Salvar</button>
+        </div>
+      </form>
+    </div>
+
+  </div>
+  <footer>
+    <div class="foot-bottom">
+      2019 - Todos os direitos reservados
+    </div>
+  </footer>
+</body>
+
+</html>
+<script src=" ./js/scripts.js"> </script>
